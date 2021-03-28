@@ -90,9 +90,9 @@ namespace BBBCSIO
         public const string SYSFS_EVENTFILEBASENAME = "event";
 
         // the file which contains the pinmux pins in use
-        public const string PINUMUX_PINUMUXPINSFILE = "/sys/kernel/debug/pinctrl/44e10800.pinmux/pinmux-pins";
+        public const string PINUMUX_PINUMUXPINSFILE = "/sys/kernel/debug/pinctrl/44e10800.pinmux-pinctrl-single/pinmux-pins";
         // the file which contains the pins information
-        public const string PINUMUX_PINSFILE = "/sys/kernel/debug/pinctrl/44e10800.pinmux/pins";
+        public const string PINUMUX_PINSFILE = "/sys/kernel/debug/pinctrl/44e10800.pinmux-pinctrl-single/pins";
 
         // the template for the SPIDEV device file
         public const string SPIDEV_FILENAME = "/dev/spidev%device%.%slave%";

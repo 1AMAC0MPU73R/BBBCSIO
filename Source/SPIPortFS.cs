@@ -404,11 +404,11 @@ namespace BBBCSIO
             //      goes to /dev/spidev2.x. That is just the way it is
             if (SPIPort == SPIPortEnum.SPIPORT_0)
             {
-                deviceFileName = deviceFileName.Replace("%device%", "1");
+                deviceFileName = deviceFileName.Replace("%device%", "0");
             }
             else if (SPIPort == SPIPortEnum.SPIPORT_1)
             {
-                deviceFileName = deviceFileName.Replace("%device%", "2");
+                deviceFileName = deviceFileName.Replace("%device%", "1");
             }
             else
             {
